@@ -5,7 +5,7 @@
 <br/>
 
 ### setting.json
-
+(eslint 문법에 맞게 오토 세이브기능 설정)
 ```json
 {
   "editor.codeActionsOnSave": {
@@ -44,19 +44,18 @@ module.exports = {
 ```
 
 ### build.gradle
+
 <br/>
 
-/android/app/build.gradle 
-<br/> 하단에 작성
+/android/app/build.gradle
+<br/> 네이티브 벡터 아이콘 설정 (하단에 작성)
 
 ```js
 project.ext.vectoricons = [
-    iconFontNames: [ 'MaterialIcons.ttf', 'EvilIcons.ttf' ] 
+    iconFontNames: [ 'MaterialIcons.ttf', 'EvilIcons.ttf' ]
 ]
 apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 ```
-
-
 
 ### .eslint.js
 
