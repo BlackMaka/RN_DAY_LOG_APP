@@ -15,5 +15,15 @@ module.exports = {
         endOfLine: 'auto',
       },
     ],
+    'comma-dangle': [
+      0,
+      {
+        arrays: 'always',
+        objects: 'never',
+        imports: 'always',
+        exports: 'always',
+        functions: 'always',
+      },
+    ],
   },
 };
