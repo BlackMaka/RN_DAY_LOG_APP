@@ -4,7 +4,7 @@
 
 <br/>
 
-### setting.json
+### settings.json
 (eslint 문법에 맞게 오토 세이브기능 설정)
 ```json
 {
@@ -13,7 +13,7 @@
   }
 }
 ```
-
+<br/>
 ### .eslint.js
 
 <br/>
@@ -42,7 +42,7 @@ module.exports = {
   },
 };
 ```
-
+<br/>
 ### build.gradle
 
 <br/>
@@ -56,7 +56,7 @@ project.ext.vectoricons = [
 ]
 apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 ```
-
+<br/>
 ### .eslint.js
 
 <br/>
