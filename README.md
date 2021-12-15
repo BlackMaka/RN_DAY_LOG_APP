@@ -60,9 +60,11 @@ apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 ```
 <br/>
 
-### 공통 설치
+### install
 
 <br/>
+
+공통 설치
 
 ```bash
 npm install @react-navigation/native
@@ -86,4 +88,12 @@ npm i @react-navigation/bottom-tabs
 
 ```bash
 npm i react-native-vector-icons
+```
+
+<br>
+
+프로젝트 시작
+
+```bash
+yarn android
 ```
