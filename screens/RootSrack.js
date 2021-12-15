@@ -13,7 +13,11 @@ export default function RootSrack() {
         component={MainTab}
         options={{headerShown: false}}
       />
-      <Screen name="Write" component={WhiteScreen} />
+      <Screen
+        name="Write"
+        component={WhiteScreen}
+        options={{headerShown: false}}
+      />
     </Navigator>
   );
 }
