@@ -14,6 +14,7 @@
 }
 ```
 <br/>
+
 ### .eslint.js
 
 <br/>
@@ -43,6 +44,7 @@ module.exports = {
 };
 ```
 <br/>
+
 ### build.gradle
 
 <br/>
@@ -57,6 +59,7 @@ project.ext.vectoricons = [
 apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 ```
 <br/>
+
 ### .eslint.js
 
 <br/>
