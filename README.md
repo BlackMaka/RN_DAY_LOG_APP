@@ -19,7 +19,7 @@
 
 <br/>
 
-컴포넌트 및 html 태그 오토 클로징 <br/>
+컴포넌트 및 html 태그 셀프 클로징 <br/>
 prettier와 eslint 충돌 제거
 
 ```js
