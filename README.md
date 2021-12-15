@@ -60,11 +60,9 @@ apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 ```
 <br/>
 
-### .eslint.js
+### 공통 설치
 
 <br/>
-
-공통 설치
 
 ```bash
 npm install @react-navigation/native
