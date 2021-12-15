@@ -20,7 +20,9 @@
 <br/>
 
 컴포넌트 및 html 태그 셀프 클로징 <br/>
-prettier와 eslint 충돌 제거
+elint 문제 중.. 라인 끝 에러표시 제거 <br/>
+prettier와 eslint 충돌 제거 (dangle) 더블콤마 <br/>
+
 
 ```js
 module.exports = {
@@ -40,8 +42,19 @@ module.exports = {
         endOfLine: 'auto',
       },
     ],
+    'comma-dangle': [
+      0,
+      {
+        arrays: 'always',
+        objects: 'never',
+        imports: 'always',
+        exports: 'always',
+        functions: 'always',
+      },
+    ],
   },
 };
+
 ```
 <br/>
 
