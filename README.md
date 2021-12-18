@@ -1,34 +1,45 @@
 # RN_DAY_LOG_APP
 
 ## 환경설정
+
 ---
-### 1. Node.js 설치 <br/>
+
+### 1. VS code 설치 <br/>
+[Vs Code](https://code.visualstudio.com/)
+
+### 2. Node.js 설치 <br/>
+
 [Node.js](https://nodejs.org/ko/)
 
-### 2. chocolaty 설치
+### 3. chocolaty 설치
+
 ```bash
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
+
 버전확인
+
 ```bash
 choch -v
 ```
 
 jdk8 설치
+
 ```bash
 choco install -y openjdk8
 ```
 
+### 4. 안드로이드 스튜디오 설치
+[Android Studio](https://developer.android.google.cn/studio/install?hl=ko)
 
-### 3. 안드로이드 스튜디오 설치
-
-|시스템 변수 | 값 |
-|---|---|
-|ANDROID_HOME	| C:\Users\ [사용자이름]\AppData\Local\Android\Sdk|
-
+| 시스템 변수  | 값                                       |
+| ------------ | ---------------------------------------- |
+|ANDROID_HOME	| C:\Users\[ㄹㅇㄴ]\AppData\Local\Android\Sdk|
 
 ---
+
 ---
+
 <br>
 
 # Setting
@@ -36,7 +47,9 @@ choco install -y openjdk8
 <br/>
 
 ### settings.json
+
 (eslint 문법에 맞게 오토 세이브기능 설정)
+
 ```json
 {
   "editor.codeActionsOnSave": {
@@ -44,6 +57,7 @@ choco install -y openjdk8
   }
 }
 ```
+
 <br/>
 
 ### .eslint.js
@@ -53,7 +67,6 @@ choco install -y openjdk8
 컴포넌트 및 html 태그 셀프 클로징 <br/>
 elint 문제 중.. 라인 끝 에러표시 제거 <br/>
 prettier와 eslint 충돌 제거 (dangle) 더블콤마 <br/>
-
 
 ```js
 module.exports = {
@@ -85,8 +98,8 @@ module.exports = {
     ],
   },
 };
-
 ```
+
 <br/>
 
 ### build.gradle
@@ -102,6 +115,7 @@ project.ext.vectoricons = [
 ]
 apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 ```
+
 <br/>
 
 ### install
