@@ -24,7 +24,7 @@ choco install -y openjdk8
 
 |시스템 변수 | 값 |
 |---|---|
-|ANDROID_HOME	| C:\Users\/[ㄹㅇㄴ]\AppData\Local\Android\Sdk|
+|ANDROID_HOME	| C:\Users\[사용자이름]\AppData\Local\Android\Sdk|
 
 
 ---
