@@ -1,6 +1,37 @@
 # RN_DAY_LOG_APP
 
-## Setting
+## 환경설정
+---
+### 1. Node.js 설치 <br/>
+[Node.js](https://nodejs.org/ko/)
+
+### 2. chocolaty 설치
+```bash
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+```
+버전확인
+```bash
+choch -v
+```
+
+jdk8 설치
+```bash
+choco install -y openjdk8
+```
+
+
+### 3. 안드로이드 스튜디오 설치
+
+|시스템 변수 | 값 |
+|---|---|
+|ANDROID_HOME	| C:\Users\djdrk\AppData\Local\Android\Sdk|
+
+
+---
+---
+<br>
+
+# Setting
 
 <br/>
 
