@@ -154,4 +154,8 @@ npm i react-native-vector-icons
 
 ```bash
 yarn android
+
+또는
+
+npm run android 
 ```
