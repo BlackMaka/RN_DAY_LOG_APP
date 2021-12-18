@@ -7,6 +7,8 @@
 ### 1. VS code 설치 <br/>
 [Vs Code](https://code.visualstudio.com/)
 
+이 후 ( Eslint, Prettier 플러그인 설치 )
+
 ### 2. Node.js 설치 <br/>
 
 [Node.js](https://nodejs.org/ko/)
