@@ -36,6 +36,11 @@ choco install -y openjdk8
 | ------------ | ---------------------------------------- |
 |ANDROID_HOME	| C:\Users\[ㄹㅇㄴ]\AppData\Local\Android\Sdk|
 
+AVD 매니저 -> 앱 생성<br>
+또는<br>
+안드로이드 휴대폰 연결
+
+
 ---
 
 ---
@@ -149,13 +154,20 @@ npm i react-native-vector-icons
 ```
 
 <br>
+프로젝트 생성
+
+```bash
+npx react-native init [프로젝트명]
+```
 
 프로젝트 시작
 
 ```bash
 yarn android
 
-또는
+또는 
 
-npm run android 
+npm run android
 ```
+
+
