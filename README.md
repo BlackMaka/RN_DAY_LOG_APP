@@ -171,5 +171,22 @@ yarn android
 
 npm run android
 ```
+<br>
 
+기타 유용 라이브러리 
 
+<br>
+
+```bash
+npm i uuid
+npm i react-native-get-random-values
+```
+
+-> index.js
+import 'react-native-get-random-values';
+
+<br>
+
+```bash
+npm i date-fns
+```
