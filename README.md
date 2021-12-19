@@ -190,3 +190,11 @@ import 'react-native-get-random-values';
 ```bash
 npm i date-fns
 ```
+
+```bash
+
+npm i react-native-calendars
+npm i react-native-modal-datetime-picker @react-native-community/datetimepicker
+
+npm i @react-native-community/async-storage
+```
