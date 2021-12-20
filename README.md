@@ -230,6 +230,9 @@ dependencies{
 }
 
 android/app/build.gradle
+
+apply plugin: 'com.google.gms.google-services' // <- Add this line (책에는 없음 공식문서 참조)
+
 dependencies{
 	(…)
 	implementation platform('com.google.firebase:firebase-bom:29.0.2')
