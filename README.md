@@ -231,7 +231,7 @@ dependencies{
 
 android/app/build.gradle
 
-apply plugin: 'com.google.gms.google-services' // <- Add this line (책에는 없음 공식문서 참조)
+apply plugin: 'com.google.gms.google-services' // <- Add this line
 
 dependencies{
 	(…)
