@@ -215,6 +215,10 @@ ios는 mac에서만
 keytool -J-Duser.language=en -list -v -alias androiddebugkey -keystore ./android/app/debug.keystore
 ```
 
+app/ 
+google-services.json 다운 복사
+
+
 ## build.gradle
 
 ```javascript
