@@ -250,3 +250,18 @@ defaultConfig{
 npm i @react-native-firebase/app @react-native-firebase/auth @react-native-firebase/firestore @react-native-firebase/storage
 
 ```
+
+```javascript
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if true
+          //request.time < timestamp.date(2022, 1, 19);
+    }
+  }
+}
+
+
+```
