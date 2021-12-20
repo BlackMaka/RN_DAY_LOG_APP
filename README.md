@@ -223,10 +223,13 @@ android/build.gradle
 dependencies{
 	(…)
 	classpath 'com.google.gms:google-services:4.3.10'
-	implementation platform('com.google.firebase:firebase-bom:29.0.2')
 }
 
 android/app/build.gradle
+dependencies{
+	(…)
+	implementation platform('com.google.firebase:firebase-bom:29.0.2')
+}
 defaultConfig{
 	(…)
 	multiDexEnabled true
