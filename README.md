@@ -206,3 +206,9 @@ npm i @react-native-community/async-storage
 
 ios는 mac에서만
 
+firebase
+
+```bash
+keytool -J-Duser.language=en -list -v -alias androiddebugkey -keystore ./android/app/debug.keystore
+```
+
