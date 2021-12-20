@@ -227,7 +227,7 @@ dependencies{
 
 defaultConfig{
 	(…)
-	multiIndexEnabled true
+	multiDexEnabled true
 }!
 
 ```
