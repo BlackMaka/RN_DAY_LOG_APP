@@ -206,9 +206,35 @@ npm i @react-native-community/async-storage
 
 ios는 mac에서만
 
-firebase
+
+### FireBase
+
+# firebase SHA1 키 확인
 
 ```bash
 keytool -J-Duser.language=en -list -v -alias androiddebugkey -keystore ./android/app/debug.keystore
 ```
 
+## build.gradle
+
+```javascript
+
+dependencies{
+	(…)
+	classpath 'com.google.gms:google-services:4.3.10'
+	implementation platform('com.google.firebase:firebase-bom:29.0.2')
+}
+
+defaultConfig{
+	(…)
+	multiIndexEnabled true
+}!
+
+```
+
+
+```bash
+
+npm i @react-native-firebase/app @react-native-firebase/auth @react-native-firebase/firestore @react-native-firebase/storage
+
+```
