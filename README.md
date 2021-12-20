@@ -135,7 +135,7 @@ apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 npm install @react-navigation/native
 npm install react-native-screens
 npm install react-native-safe-area-context
-
+>>>
 npm install @react-navigation/native react-native-screens react-native-safe-area-context
 ```
 
