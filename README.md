@@ -198,3 +198,9 @@ npm i react-native-modal-datetime-picker @react-native-community/datetimepicker
 
 npm i @react-native-community/async-storage
 ```
+
+동영상 재생, 파일 선택, 카메라 촬영..
+네이티브...
+
+ios는 mac에서만
+
